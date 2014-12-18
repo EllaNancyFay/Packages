@@ -8,4 +8,8 @@ class Package
     @damaged
   end
 
+  def drop!
+    @damaged = true
+  end
+
 end
