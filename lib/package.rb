@@ -1,7 +1,10 @@
 class Package
 
-  def initialize
+  attr_reader :destination
+
+  def initialize(destination)
     @damaged = false
+    @destination = destination
   end
 
   def damaged?
