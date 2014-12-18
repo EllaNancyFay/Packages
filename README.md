@@ -29,7 +29,7 @@ How to use
 ----------
 Clone the repository:
 ```shell
-$ git clone git@github.com:ellanancyfay/packages.git
+$ git clone git@github.com:ellanancyfay/Packages.git
 ```
 
 Change into the directory:
