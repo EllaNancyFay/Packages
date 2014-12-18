@@ -1,11 +1,13 @@
 class Depot
 
+  attr_accessor :packages
+
   def initialize
     @packages = []
   end
 
-  def package_count
-    @packages.length
+  def create_package
+    @packages << Package.new(:destination)
   end
 
 end
