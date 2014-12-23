@@ -10,4 +10,9 @@ class Depot
     @packages << Package.new(:destination)
   end
 
+  def load(package, van)
+    @packages.delete(package)
+    van.collect(package)
+  end
+
 end

@@ -9,4 +9,5 @@ class Van
   def collect(package)
     @packages << package
   end
+  
 end
