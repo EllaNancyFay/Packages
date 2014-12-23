@@ -6,7 +6,7 @@ Packages
 #####The Package system will cater for the following:
 
 - There will be a number of packages within the system
-- Packages will have the states of open/unopen & damaged/ok
+- Packages will have the states of damaged/undamaged
 - Packages will be created in the depot
 - The system will use vans to get the packages from the depot to the destination
 
