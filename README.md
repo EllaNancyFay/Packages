@@ -23,7 +23,6 @@ Packages
   - Package is then put into a van
   - Van moves package from depot to destination
   - Van drops package off at destination
-  - Van travels back to depot
 
 How to use
 ----------
